@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>CrypTop</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">CrypTop</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#whatiscryptocurrency" class="nav-link">What is Cryptocurrency</a>
+            </li>
+            <li class="nav-item">
+              <a href="#ourvision" class="nav-link">Our Vision</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Invest In The<span class="text-warning"> Futuren Of Currency </span></h1>
+            <p class="lead my-4">
+              Currency futures are a type of exchange-traded futures contract that specifies the price in one currency at which another currency can be purchased or sold at a later date. 
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#joinus"
+            >
+              Join Us
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="token.JPG"
+            alt="token"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Learn Sections -->
+    <section id="whatiscryptocurrency" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="crypto.PNG" class="crypto" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Cryptocurrency</h2>
+            <p class="lead">
+              A cryptocurrency is a digital or virtual currency that is protected by encryption, making counterfeiting and double-spending practically impossible. Many cryptocurrencies are built on blockchain technology, which is a distributed ledger enforced by a distributed network of computers. The fact that cryptocurrencies are not issued by any central authority is one of their distinguishing characteristics.
+            </p>
+            <p>
+              Cryptocurrencies are systems that allow for secure payments online which are denominated in terms of virtual "tokens," which are represented by ledger entries internal to the system. "Crypto" refers to the various encryption algorithms and cryptographic techniques that safeguard these entries, such as elliptical curve encryption, public-private key pairs, and hashing functions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Question Accordion -->
+    <section id="ourvision" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Vision</h2>
+        <div class="accordion accordion-flush" id="ourvision">
+          <p  class="lead">
+            Cryptocurrency in Every Wallet. At CrypTop, we are on a mission to accelerate the world's transition to cryptocurrency.
+          </p>
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#ourvision-one"
+              >
+                Think Clearly
+              </button>
+            </h2>
+            <div
+              id="ourvision-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#ourvision"
+            >
+              <div class="accordion-body">
+                We consider clarity of thought to be the single most important trait we look for in our colleagues.
+                We think about the message we want to deliver before we speak, and know what is important and what is not.
+                We are concise and articulate, putting effort into making things simple and easy to understand
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#ourvision-two"
+              >
+                Be Resourceful
+              </button>
+            </h2>
+            <div
+              id="ourvision-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#two"
+            >
+              <div class="accordion-body">
+                We go beyond the surface to gain a deep understanding of every issue.
+                We always find a way to get things done with what’s available, but we are not shy about asking for help when it’s needed.
+                We believe that great ideas can come from anywhere, regardless of seniority and experience
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#ourvision-three"
+              >
+                Stay Determined
+              </button>
+            </h2>
+            <div
+              id="ourvision-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#ourvision"
+            >
+              <div class="accordion-body">
+                We never give up, carry each other through hard times, and recognise grit in our colleagues.
+                We understand that building a world-changing company is a monumental task, but we love every minute of it.
+                We celebrate milestones together, recharge, and get back to work.
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#ourvision-four"
+              >
+                Take Ownership and Be Decisive
+              </button>
+            </h2>
+            <div
+              id="ourvision-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#ourvision"
+            >
+              <div class="accordion-body">
+                We are all empowered to take initiative, make the right decisions, and act as owners.
+                We are committed to protecting our company culture and seek to bring in the best people we’ve ever worked with.
+                We aim to surprise and inspire with the quality and speed of our decision-making
+              </div>
+            </div>
+          </div>
+          <!-- Item 5-->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#ourvision-five"
+              >
+                Remain Humble
+              </button>
+              </h2>
+            <div
+              id="ourvision-five"
+              class="accordion-collapse collapse"
+              data-bs-parent="#ourvision"
+            >
+              <div class="accordion-body">
+                We don’t seek the limelight and focus on doing what is best for the company and the users.
+                We leave our egos at the door and learn from our mistakes, knowing that we are always stronger as a team.
+                We think twice before spending, but are aggressive when it comes to investing in what matters.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+     <section id="about" class="p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-white">About</h2>
+        <p class="lead text-center text-white mb-3">
+          Satoshi Nakamoto, a pseudonymous person or group, first proposed it in a white paper published in 2008. In early 2009, Satoshi Nakamoto made Bitcoin available to the general public, and a small core of ardent believers began exchanging and mining the currency.
+        </p>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">CrypTop</p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+     <div
+      class="modal fade"
+      id="joinus"
+      tabindex="-1"
+      aria-labelledby="joinuslLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="joinus">CrypTop Sign Up</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Fill out this form and we will get back to you</p>
+            <form>
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                  First Name:
+                </label>
+                <input type="text" class="form-control" id="first-name" />
+              </div>
+              <div class="mb-3">
+                <label for="last-name" class="col-form-label">Last Name:</label>
+                <input type="text" class="form-control" id="last-name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="col-form-label">Phone:</label>
+                <input type="tel" class="form-control" id="phone" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+    <script>
+      mapboxgl.accessToken =
+        'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-71.060982, 42.35725],
+        zoom: 18,
+      })
+    </script>
+
+  </body>
+</html>
